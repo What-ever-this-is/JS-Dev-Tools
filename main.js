@@ -2,6 +2,7 @@
 function log(){
 
 }
+var consoleFunctions = [""]
 var devTools=document.createElement("div");
 var navBar=document.createElement("div");
 var navBarTabTemplate = document.createElement("div");
@@ -15,6 +16,10 @@ var keyshortcuts={
     "control":false,
     "shift":false,
     "i":false
+};
+var consoleTemplates={
+    "log":document.createElement("p"),
+    ""
 };
 var navBarTabs=["Elements","Console","Storage","About","Hide"];
 var currentTab="Elements";
